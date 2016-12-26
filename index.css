@@ -1,0 +1,57 @@
+img {
+  padding-bottom: 20px;
+}
+
+nav.navbar {
+  font-size: 2rem;
+  padding-top: 10px;
+  overflow: visible;
+  height: 70px;
+}
+
+nav.shrink {
+  height: 35px !important;
+  font-size: 1.5rem;
+  padding-top: 0;
+  overflow: visible;
+}
+
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/*main page element wrappers*/
+#about {
+  height: 100px;
+  width: 100%;
+}
+
+#previousWork {
+  height: 500px;
+  width: 100%
+}
+
+#members {
+  height: 700px;
+  width: 100%;
+}
+
+#contact {
+  height: 700px;
+  width: 100%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
